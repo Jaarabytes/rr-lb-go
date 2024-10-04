@@ -9,7 +9,8 @@ input and writes it to the database alongside the original data since hashes hav
 
 It uses round-robin
 
-[rr-lb-go](recording-2024-10-04-16-30-38.mp4)
+
+https://github.com/user-attachments/assets/0170ae7a-4534-4bca-9a2a-68bb6b2858d2
 
 
 ## Prerequisites
