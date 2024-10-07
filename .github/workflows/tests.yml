@@ -17,6 +17,6 @@ jobs:
         with:
           go-version: 1.22.6
       - name: Build
-        run: go build .
+        run: go build hash-based/load_balancer.go && go build round-robin/load_balancer.go  
       - name: Test
-        run: go test -v .
+        run: cd hash-based ;go test -v ; cd ../round-robin/; go test -v
